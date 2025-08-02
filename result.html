@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Case Details</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Case Details</h2>
+        <p><strong>Parties:</strong> {{ parties }}</p>
+        <p><strong>Filing Date:</strong> {{ filing_date }}</p>
+        <p><strong>Next Hearing Date:</strong> {{ next_hearing_date }}</p>
+        <p><a href="{{ pdf_link }}" target="_blank">Download Latest Order (PDF)</a></p>
+        <a href="/">← Back</a>
+    </div>
+</body>
+</html>

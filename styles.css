@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+.container {
+    width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.1);
+}
+h1, h2 {
+    color: #0056b3;
+    text-align: center;
+}
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #0056b3;
+}

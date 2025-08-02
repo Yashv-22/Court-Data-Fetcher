@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Court Case Fetcher</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Case Data Fetcher</h1>
+        <form action="/fetch" method="POST">
+            <label>Case Type:</label>
+            <input type="text" name="case_type" required>
+
+            <label>Case Number:</label>
+            <input type="text" name="case_number" required>
+
+            <label>Filing Year:</label>
+            <input type="text" name="filing_year" required>
+
+            <button type="submit">Fetch Details</button>
+        </form>
+        <a href="/stored_responses">View Stored Queries</a>
+    </div>
+</body>
+</html>
